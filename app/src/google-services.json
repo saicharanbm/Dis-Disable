@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "208603930699",
+    "firebase_url": "https://sign-encryption-default-rtdb.firebaseio.com",
+    "project_id": "sign-encryption",
+    "storage_bucket": "sign-encryption.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208603930699:android:80defaa08fccbc63836dce",
+        "android_client_info": {
+          "package_name": "com.example.imagepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208603930699-3h1a7dfqads7btgqt9tpbf2s01d9oras.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imagepro",
+            "certificate_hash": "21da8c0a9a17c4af487bc16ddb0f2fa8b2603ad1"
+          }
+        },
+        {
+          "client_id": "208603930699-ia65qk36e2c50usiiihojlfb8i2r7945.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf1yvjykb4BUzqQ1r9-SuU23488Z7hEyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208603930699-ia65qk36e2c50usiiihojlfb8i2r7945.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    android:background="#2B2929"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/backgroundLayout"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+
+    <ImageView
+        android:id="@+id/blueTwitter"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/blindback0"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundLayout"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundLayout" />
+
+
+    <ImageView
+        android:id="@+id/whiteTwitter"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/blindback"
+
+        app:layout_constraintEnd_toEndOf="@+id/backgroundLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/blueTwitter"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Dis-Disable"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="100dp"
+        />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
